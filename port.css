@@ -1,0 +1,141 @@
+ body{
+    margin-top:0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#body-header {
+  
+     height: 90vh;
+    opacity: 0.9;
+    background-image: url(./images/s.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     padding-top: 1.2rem; 
+} 
+#name{
+    margin-top:200px;
+    margin-left: 300px;
+    font-size: 3.623rem;
+}
+.horizontal-list{
+     list-style:none;
+    padding-left: 0px;
+    text-align: center; 
+  
+}
+.horizontal-list li{
+    display:inline-block;
+    margin:10px 25px 25px 0px;
+    font-size: large;
+} 
+.horizontal-list li a:hover{
+    color: white;
+    border-bottom: 1px solid grey;
+    text-decoration: none;
+    transition: color 0.5s,bottom-border 4s;
+}
+.horizontal-list li a{
+    color:rgba(0, 0, 0, 0.559);
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:#11999e;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 11rem;
+    margin-left: 27rem;
+}
+#tittle{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:#11999e;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 33rem;
+}
+#about{
+    height:auto;
+    width:100%;
+    position:relative;    
+}
+#my-image{
+    height:12rem;
+    width:12rem;
+    margin:auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+}
+.intro{
+    width:30%;
+    margin: auto;
+    padding:40px;
+    font-family: 'Merriweather';
+    color:grey;
+}
+hr{
+    border-style:none ;
+    border-top-style: dotted; 
+    border-color: grey;
+    border-width: 5px;
+    width:5%;
+    margin:100px auto;
+}
+#education{
+    background-color: none;
+}
+#education h2{
+    text-align: center;
+    color:#11999e;
+}
+.education-list li{
+    list-style: none;
+}
+.education-list h4{
+    color:grey;
+    text-align: center;
+}
+.graduate , .undergraduate, .matric{
+    width:40%;
+    margin:auto;
+    padding:40px;
+}
+#skill h2{
+    text-align: center;
+    color:#11999e;
+}
+#skill-table{
+    margin-left:32%;
+    font-style:normal;
+    font-size: 1.79rem;
+}
+#coding-profile h2{
+    text-align: center;
+    color:#11999e;
+
+}
+#coding-profile-list h4{
+    margin-left:30.4%;
+}
+#contact h2{
+    text-align: center;
+    color:#11999e
+}
+#contact{
+    margin-bottom:5%;
+}
+#linkedin{
+    margin-left:33%;
+}
+#instagram{
+    margin-left: 3%;
+}
+#intro{
+background-color: rgb(11, 11, 50);
+}
